@@ -50,4 +50,76 @@ public class Produto {
 	@JsonIgnoreProperties("categoria")
 	private Categoria categoria;
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getDesenvolvedor() {
+		return desenvolvedor;
+	}
+
+	public void setDesenvolvedor(String desenvolvedor) {
+		this.desenvolvedor = desenvolvedor;
+	}
+
+	public String getPlataforma() {
+		return plataforma;
+	}
+
+	public void setPlataforma(String plataforma) {
+		this.plataforma = plataforma;
+	}
+
+	public String getGenero() {
+		return genero;
+	}
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+	public BigDecimal getPreco() {
+		return preco;
+	}
+
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
+
+	public int getEstoque() {
+		return estoque;
+	}
+
+	public void setEstoque(int estoque) {
+		this.estoque = estoque;
+	}
+
+	public LocalDate getLancamento() {
+		return lancamento;
+	}
+
+	public void setLancamento(LocalDate lancamento) {
+		this.lancamento = lancamento;
+	}
+
+	public Categoria getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
+
 }
