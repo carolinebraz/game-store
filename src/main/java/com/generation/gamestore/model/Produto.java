@@ -47,7 +47,7 @@ public class Produto {
 	private LocalDate lancamento;
 	
 	@ManyToOne
-	@JsonIgnoreProperties("categoria")
+	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
 
 	public Long getId() {
